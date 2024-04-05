@@ -6,6 +6,7 @@ This project aims to analyze public sentiment using Twitter data. We'll build a 
 ## Data
 
 **-Description:** We'll collect tweets containing "COVID-19 vaccine" or "coronavirus vaccine" from the past six months.
+
 **-Format:** The data will be retrieved from the Twitter API in JSON format. Each tweet object will include text, user information, and creation time.
 **-Collection:** We'll use the Tweepy library to interact with the Twitter API, filtering tweets based on the chosen keywords and date range.
 
