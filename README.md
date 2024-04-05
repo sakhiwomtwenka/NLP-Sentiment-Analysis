@@ -15,7 +15,7 @@ This project aims to analyze public sentiment using Twitter data. We'll build a 
 **-Tokenization:** We'll tokenize the text into individual words using the NLTK library's TweetTokenizer, specifically designed to handle Twitter-specific language.
 **Normalization:** We might explore stemming (reducing words to their base form) using NLTK's PorterStemmer to potentially improve model generalizability.
 
-##Feature Engineering
+## Feature Engineering
 
 **-Text Representation:** We'll employ TF-IDF (term frequency-inverse document frequency) to represent each tweet as a numerical vector, capturing the importance of words based on their frequency within a tweet and rarity across the entire dataset.
 **-Additional Features (Optional):** We might consider incorporating sentiment lexicon scores (using libraries like VADER or TextBlob) as additional features to complement the TF-IDF representation.
